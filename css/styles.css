@@ -39,7 +39,7 @@ main::after {
   float: left;
   width: 50%;
   margin: 0px 1%;
-  height: 400px;
+  height: 600px;
   background: rgba(0, 0, 0, 0.7);
 }
 
@@ -62,3 +62,8 @@ main::after {
 }
 
 /* FOOTER */
+
+footer  {
+  background: cyan;
+  height: 75px;
+}
