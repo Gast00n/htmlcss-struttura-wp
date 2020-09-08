@@ -14,3 +14,51 @@ header {
   background: yellow;
   height: 200px;
 }
+
+/* MAIN CONTENT */
+
+main {
+  margin: 10px 0px;
+  width:100%;
+}
+
+main::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.col-left {
+  float: left;
+  width: 24%;
+  height: 200px;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.col-center {
+  float: left;
+  width: 50%;
+  margin: 0px 1%;
+  height: 400px;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.col-right {
+  float: left;
+  width: 24%;
+}
+
+.col-right::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.top1, .top2 {
+  width:100%;
+  height: 190px;
+  background: rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+}
+
+/* FOOTER */
